@@ -1,1 +1,1 @@
-# NFT-preview-card-projeqt
+# NFT-preview-card-project
