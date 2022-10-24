@@ -1,0 +1,55 @@
+
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0D192C;
+}
+
+.main-div{
+    width: 350px;
+    height: 596px;
+    padding: 24px;
+    background-color: #15263F;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.main-image{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+h1{
+    width: 302px;
+    height: 28px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    font-size: 22px;
+    line-height: 27.72px;
+    
+}
+p{
+    width: 302px;
+    height: 52px;
+    color: #8BACD9;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 16px;
+
+
+}
+.eth-paragraph{
+    display: inline-block;
+    width: 75px;
+    height: 20px;
+}
+.days-paragraph{
+    display: inline-block;
+    width: 73px;
+    height: 20px;
+}
