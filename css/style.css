@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap');
 
 
 body{
@@ -29,27 +30,92 @@ h1{
     color: #FFFFFF;
     margin-top: 24px;
     font-size: 22px;
+    font-family: 'outfit', sans-serif ;
     line-height: 27.72px;
     
 }
-p{
+.main-text p{
     width: 302px;
     height: 52px;
     color: #8BACD9;
     font-weight: 300;
     font-size: 18px;
+    font-family: 'outfit', sans-serif ;
     line-height: 26px;
     margin-top: 16px;
 
 
 }
-.eth-paragraph{
-    display: inline-block;
-    width: 75px;
-    height: 20px;
-}
+
 .days-paragraph{
     display: inline-block;
     width: 73px;
     height: 20px;
+}
+
+.icons{
+    width: 301px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 24px;
+    font-size: 16px;
+    font-family: 'outfit', sans-serif ;
+
+}
+.eth-paragraph{
+    
+    height: 20px;
+    font-weight: 600;
+    font-family: 'outfit', sans-serif ;
+    font-size: 16px;
+    line-height: 20.px;
+    margin-right: 112px;
+    color: #00FFF8;
+}
+.days-paragraph{
+    width: 73px;
+    height: 20px;
+    font-weight: 400;
+    font-family: 'outfit', sans-serif ;
+    font-size: 16px;
+    line-height: 20.16px;
+    color: #8BACD9;
+}
+.avatar img{
+    height: 33px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+
+}
+.avatar {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  font-family: 'outfit', sans-serif ;
+
+}
+.avatar-creation{
+    margin-left: 16px;
+    margin-right: 5px;
+    color: #8BACD9;
+}
+.avatar-name{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'outfit', sans-serif ;
+    line-height: 20px;
+}
+
+.divider{
+    width: 302px;
+    height: 1px;
+    left: 6.86%;
+    right: 6.86%;
+    color: #2E405A;
+    margin-top: 24px;
 }
